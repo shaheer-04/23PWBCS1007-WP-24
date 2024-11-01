@@ -1,0 +1,89 @@
+body{
+    margin: 0;
+    padding: 0;
+    background-image: url(./home.jpeg) ;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    height: fit-content;;
+
+}
+#header{
+    color: white;
+    background-color: rgb(27, 26, 26);
+    padding-top: 2px;
+    padding-bottom: 2px;
+    width: 100%;
+    box-sizing: border-box;
+}
+#logo{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.center{
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    }
+
+#right{
+    padding-left: 45%;
+}
+.navlinks{
+    display: flex;
+    gap: 20px;
+}
+.libre-baskerville-bold {
+    font-family: "Libre Baskerville", serif;
+    font-weight: 700;
+    font-style: normal;
+}
+
+form  div.center{
+    padding-left: 18%;
+}
+.formcenter{
+    display: grid;
+    place-items: center;
+    
+}
+#foot{
+   
+    color:rgb(8, 8, 8);
+    text-align: center;
+    position: fixed;
+    bottom:0 ;
+    width: 100%;
+}
+.box{
+    background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            margin: 10px auto;
+            padding: 10px;
+            width: 40%;
+}
+.center2{
+    text-align: center;
+}
+.member{
+    background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            margin: 40px auto;
+            padding: 20px;
+            width: 30%;
+}
+.intros{
+    background-color: rgba(255, 255, 255, 0.9);
+            border-radius: 10px;
+            margin: 20px auto;
+            padding: 20px;
+            width: 40%;
+            height: auto;
+            text-align: center;
+            position: relative;
+}
+.box2{
+    margin-left: 10;
+}

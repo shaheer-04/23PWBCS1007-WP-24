@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact</title>
+    <style>
+        html, body{
+            margin: 0;
+            padding: 0;
+            background-image: url(./contact.jpeg);
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+        }
+        header{
+            background-color: #212121;
+            color: white;
+            text-align: center;
+            height: 50px;
+            align-items: center;
+            justify-content: center;
+            position: relative;
+        }
+        #logo{
+            height: 40px;
+            width: 40px;
+            border-radius: 50%;
+            position: absolute;
+            left: 10px;
+        }
+        .box{
+            width: 25%;
+            height: 60%;
+            text-align: center;
+            position: sticky;
+            margin: 15% auto;
+            background-color: hsla(24, 73%, 75%, 0.37);
+            padding-top: 30px;
+            padding-bottom: 20px;
+            border-radius: 5px;
+        }
+        label{
+            display: block;
+        }
+        
+        textarea{
+            height: 60px;
+        }
+        button{
+            background-color: hsla(205, 12%, 70%, 0.9);
+            border: 1px solid white;
+            border-radius: 4px;
+            padding: 6px 12px;
+            position: absolute;
+            left: 80px;
+        }
+        #foot{
+            color:rgb(7, 7, 7);
+            text-align: center;
+            padding: 10px;
+            position: sticky;
+            bottom:auto;
+            width: auto;
+        }
+    </style>
+</head>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
+<body>
+    <header>
+        <img src="./logo.png" alt="logo" id="logo" style="padding-top: 5px;"><h1 style="padding-top: 5px; margin-top: 0;">Contact</h1>
+        <a href="Home.html">
+        <i class="fa-solid fa-house" style="color: white; position: absolute; left: 82%; top: 25%;"> </i>
+    </a>
+    <a href="Achievements.html">
+        <i class="fa-solid fa-image" style="color: white; position: absolute; top: 25%; left: 85%;"></i>
+    </a>
+    <a href="workouts.html">
+        <i class="fa-solid fa-dumbbell" style="color: white; position: absolute; left: 88%; top: 25%;"></i>
+    </a>
+    <a href="Nutritions.html">
+        <i class="fa-solid fa-apple-alt" style="color: white; position: absolute; left: 91%; top: 25%;"></i>
+        
+    </a>
+        </header>
+
+        
+            <form action="action_page.php" method="post" class="box">
+                <h1 style="text-align: center;">Contact Form</h1>
+                
+                <p style="font-size: 1.25rem;">You can contact us by filling the following form we will be glad to hear from you</p>
+                <div>
+                <label for="email" >Your Email <br></label>
+                <input type="email" id="email" name="email" placeholder="eg:abs@gmail.com">
+            </div>
+            <br>
+            <div>
+                <label for="phone">Your Phone <br></label>
+                <input type="tel" id="phone" name="phone " placeholder="+92___-_________ ">
+            </div>
+            <br>
+            <div>
+                <label for="name">Your name <br></label>
+                <input type="text" id="name" class="name" placeholder="eg:CBUM">
+            </div>
+            <br>
+            <div>
+                <label for="message" >Your message <br></label>
+                <textarea name="message" id="message" placeholder="Your message"></textarea>
+            </div>
+            <br>
+            <button type="submit">Submit</button>
+            <br>
+            <br>
+            <h4>Email Us</h4>
+            <p>info@MS&N.com</p>
+            </form>
+            
+        <footer id="foot">
+            <p>©2024-Muscles, Strength & Nutrition. All rights reserved.</p>
+        </footer>
+</body>
+</html>
